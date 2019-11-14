@@ -9,7 +9,7 @@ def map(array)
   new
 end
 
-def reduce(array, startingpoint=nil)
+def reduce(array, startingpoint=0)
   if startingpoint
     total=startingpoint
     i=0
